@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 12px;
+    
+}
+
+.cardItem{
+    padding-right: 15px;
+    padding-left: 15px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 15%);
+}
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 770px){
+.container {
+    max-width: 1120px;
+}
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 1140px;
+}
+}

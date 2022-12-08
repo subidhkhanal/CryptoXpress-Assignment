@@ -8,16 +8,32 @@
     flex-direction: row;
     text-align: center;
     padding: 12px;
+    padding-top: 50px;
     
 }
 
 .cardItem{
     padding-right: 15px;
     padding-left: 15px;
+    max-width: 33.3333333333%;
 }
 
 .cardDetails{
     box-shadow: 0 0 15px 0 rgb(0 0 0 / 15%);
+}
+
+.subscribe{
+    display: flex;
+}
+
+.buttonDiv{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.buttons{
+    background-color: #01b46c;
+    color:white;
 }
 
 @media (min-width: 576px){

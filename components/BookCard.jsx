@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import {Card} from 'antd'
+import styles from '../styles/BookCard.module.css'
 
 const BookCard = ({ book }) => {
   const { id, title,content,image,slug } = book;
@@ -9,7 +10,9 @@ const BookCard = ({ book }) => {
       <Card>
         {content}
         </Card>
-      <Image src={image} width={749}/>
+        <div>
+          <Image src={image} className={styles.image}/>
+        </div>
     </div>
   );
 };

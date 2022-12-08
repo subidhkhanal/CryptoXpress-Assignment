@@ -1,5 +1,5 @@
 import Newsletter from "./Newsletter"
-import Wecare from "./wecare"
+import Wecare from "./Wecare"
 
 const Whychooseus  = () => {
     return(

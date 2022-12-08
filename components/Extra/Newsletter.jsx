@@ -14,7 +14,7 @@ import styles from '../../styles/Newsletter.module.css'
             </Card> 
             </div>
             <div className={styles.cardItem}>
-            <Card size="small" title="Collaborate with us for Blog/Content" extra={<a href="#">More</a>}>
+            <Card size="small" title="Collaborate with us for Blog/Content" extra={<a href="#">More</a>} className={styles.cardDetails}>
             <p>If you have a flair for writing, write for us and get featured.</p>
             <div>
             <input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email" aria-invalid="false" />
@@ -23,7 +23,7 @@ import styles from '../../styles/Newsletter.module.css'
             </Card> 
             </div>
             <div className={styles.cardItem}>
-            <Card size="small" title="Be your own tour guide." extra={<a href="#">More</a>}>
+            <Card size="small" title="Be your own tour guide." extra={<a href="#">More</a>} className={styles.cardDetails}>
             <p>Get lost or never. You decide. Download our handy tour guides to plan your trip.</p>
             <div>
             <input type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email" aria-invalid="false" />

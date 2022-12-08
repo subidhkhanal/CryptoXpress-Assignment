@@ -1,10 +1,10 @@
-// import { Card } from 'antd';
+import { Card } from 'antd';
 import styles from '../../styles/Newsletter.module.css'
       
    const Newsletter= () => {
     return(
         <div className={styles.container}>
-            {/* <div className={styles.cardItem}>
+            <div className={styles.cardItem}>
            <Card size="small" title="Subscribe to Mailer" extra={<a href="#">More</a>} className={styles.cardDetails}>
             <p>Stay updated with all the excitement that Andamans has to offer</p>
             <div>
@@ -30,7 +30,7 @@ import styles from '../../styles/Newsletter.module.css'
             <button type="submit" class="primary">Subscribe</button>
             </div>
             </Card> 
-            </div> */}
+            </div>
         </div>
     )
 }

@@ -31,6 +31,7 @@ export const books = [
   {
     id: 3,
     title: "How to Reach Havelock?",
+    image: DividerBetweenContent, 
     content:
     "Havelock Island can be reached by Sea and by Air, however, the easiest way to travel to Havelock would be by the Sea. Private and Government ferries operate from neighboring islands (Port Blair and Neil Island). However, we recommend private ferries, as the booking is hassle-free and doesn’t require waiting in line, the same can be booked through us for an easy and worry-free experience.\n\n A few private ferry companies that sail to havelock Island been listed below:\nMakruzz Ferry \nITT Majestic Ferry \nSealink Ferry \nGreen Ocean Ferry\n Aashi Ferry \n \nPlease click here for ferry timing and booking",
     slug: "How-to-Reach-Havelock?"
@@ -38,6 +39,7 @@ export const books = [
   {
     id: 4,
     title: "Directorate of Shipping Services",
+    image: DividerBetweenContent, 
     content:
     "Government-run boats are the lifeline for locals of Andaman. They connect almost all islands in the Andaman Islands (including the Nicobar group of islands). Bookings can only be made from the counters mentioned below. \n\nPort Blair – Phoenix Bay Jetty & Common Service Centers located around the town \nHavelock Island – Havelock Jetty \nNeil Island – Neil Jetty",
     slug: "Directorate-of-Shipping-Services"
@@ -45,6 +47,7 @@ export const books = [
   {
     id: 5,
     title: "Getting Around in Havelock",
+    image: DividerBetweenContent, 
     content:
     "Local transport in Swaraj Dweep (Havelock Island) is fairly simple. Roads are well set and straight. It is almost impossible to get lost as everything is just by the road and the locals are all very helpful. It also helps that Havelock’s beaches and villages are categorized with the help of numbers.\n\n These are a few options we recommend:",
     slug: "Getting-Around-in-Havelock"

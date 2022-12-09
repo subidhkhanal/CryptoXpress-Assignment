@@ -4,7 +4,7 @@ import styles from '../../styles/Whychooseus.module.css'
 
 const Whychooseus  = () => {
     return(
-        <div>
+        <div className={styles.mainContainer}>
             <Wecare />
             <Newsletter />
             <div className={styles.container}>

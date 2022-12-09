@@ -1,12 +1,13 @@
 import styles from '../styles/Footer.module.css'
 import { Col,  Row } from 'antd';
+import { Typography,Divider} from 'antd';
 
+const { Title,Paragraph } = Typography;
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <div>
-        <div className={styles.partOne}>
-        <Row justify="space-evenly" className={styles.content}>
+      <div className={styles.insideContainer}>
+        <Row justify="space-evenly">
             <Col
             xs={{
               span: 5,
@@ -14,7 +15,7 @@ const Footer = () => {
             }}
             lg={{
               span: 6,
-              offset: 2,
+              offset: 4,
             }}
             > 
                 <div>
@@ -33,29 +34,33 @@ const Footer = () => {
               offset: 1,
             }}
             lg={{
-              span: 6,
+              span: 5,
               offset: 2,
             }}>
               <div>
-                <h2>GO2ANDAMAN.COM</h2>
-                <ul className={styles.list}>
-                  <li><a href="https://www.go2andaman.com/about-us/">About Us</a></li>
-                  <li><a href="https://go2andaman-jobs.super.site/">Jobs at Go2Andaman</a></li>
-                  <li><a href="https://www.go2andaman.com/blog/">Travel Blog</a></li>
-                  <li><a href="https://www.go2andaman.com/influencers/">Influencers &amp; Brands</a></li>
-                  <li><a href="https://www.go2andaman.com/reviews/">GO2ANDAMAN Reviews</a></li>
+                <Paragraph strong>
+                  <Title level={5}>GO2ANDAMAN.COM</Title>
+                </Paragraph>
+                <ul className={styles.lists}>
+                  <li className={styles.list}><a>About Us</a></li>
+                  <li className={styles.list}><a>Jobs at Go2Andaman</a></li>
+                  <li className={styles.list}><a>Travel Blog</a></li>
+                  <li className={styles.list}><a>Influencers &amp; Brands</a></li>
+                  <li className={styles.list}><a>GO2ANDAMAN Reviews</a></li>
                 </ul>
               </div>
             </Col>
             <Col>
               <div>
-                <h2>FOR TRAVELLERS</h2>
-                <ul className={styles.list}>
-                  <li><a href="https://www.go2andaman.com/contact-us/">Contact Us</a></li>
-                  <li><a href="https://www.go2andaman.com/refund-and-cancellation-policy/">Refunds &amp; Cancellation</a></li>
-                  <li><a href="https://www.go2andaman.com/terms-of-service/">Terms of Service</a></li>
-                  <li><a href="https://www.go2andaman.com/content-disclaimer/">Content Disclaimer</a></li>
-                  <li><a href="https://www.go2andaman.com/privacy-policy/">Privacy Policy</a></li>
+              <Paragraph strong>
+                  <Title level={5}>FOR TRAVELLERS</Title>
+                </Paragraph>
+                <ul className={styles.lists}>
+                  <li className={styles.list}><a>Contact Us</a></li>
+                  <li className={styles.list}><a>Refunds &amp; Cancellation</a></li>
+                  <li className={styles.list}><a>Terms of Service</a></li>
+                  <li className={styles.list}><a>Content Disclaimer</a></li>
+                  <li className={styles.list}><a>Privacy Policy</a></li>
                 </ul>
               </div>
             </Col>
@@ -63,7 +68,60 @@ const Footer = () => {
             <img src="https://ocean.go2andaman.com/wp-content/uploads/2020/12/startupindia-01.svg" width="200"/>
             </Col>
         </Row>
-        </div>
+          <Divider />
+        <Row justify="start">
+        <Col
+            xs={{
+              span: 5,
+              offset: 1,
+            }}
+            lg={{
+              span: 6,
+              offset: 4,
+            }}
+            > 
+              WEBPORT MEDIA PVT LTD | CIN No: U63040AN2015PTC000278
+            </Col>
+            <Col
+              xs={{
+                span: 5,
+                offset: 1,
+              }}
+              lg={{
+                span: 5,
+                offset: 2,
+              }}
+            ></Col>
+            <Col></Col>
+            <Col
+             xs={{
+              span: 5,
+              offset: 1,
+            }}
+            lg={{
+              span: 1,
+              offset: 2,
+            }}
+            ></Col>
+            <Col 
+          >
+             <a className={styles.icons}>
+              <img src="https://ocean.go2andaman.com/wp-content/uploads/2020/07/instagram.png" width="20"/>
+            </a>
+            <a className={styles.icons}>
+              <img src="https://ocean.go2andaman.com/wp-content/uploads/2020/07/facebook.png" width="10" />
+            </a> 
+            <a className={styles.icons}>
+              <img src="https://ocean.go2andaman.com/wp-content/uploads/2020/07/pinterest.png" width="20"/>
+            </a>
+            <a className={styles.icons}>
+              <img src="https://ocean.go2andaman.com/wp-content/uploads/2020/07/linkedin.png" width="20"/>
+            </a>
+            <a className={styles.icons}>
+              <img src="https://ocean.go2andaman.com/wp-content/uploads/2020/07/twitter.png" width="20"/>
+            </a>
+            </Col>
+        </Row>
       </div>
     </div>
   );

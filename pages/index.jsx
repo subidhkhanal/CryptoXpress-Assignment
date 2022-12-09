@@ -7,7 +7,7 @@ import Whychooseus from "../components/Extra/Whychooseus";
 
 const IndexPage = () => {
   return (
-    <div>
+    <div style={{height:"100vh"}}>
       <Navbar />
       <Banner />
       <MainContent />

@@ -1,13 +1,32 @@
 .container{
     background-color: #e4e4e4;
+    padding-top: 40px;
+
+}
+
+.insideContainer{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px;
+}
+.lists{
+    list-style: none;
+    padding-left: 1px;;
 }
 
 .list{
     list-style: none;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
-
 .image{
     display: flex;
     align-items: flex-end;
     padding-left: 40px;
+}
+.icons{
+    padding-left: 12px;
+    padding-right: 12px;
 }

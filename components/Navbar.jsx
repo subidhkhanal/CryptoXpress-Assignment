@@ -1,7 +1,6 @@
 import { Col,  Row } from 'antd';
 import {SearchOutlined} from '@ant-design/icons';
 import styles from "../styles/Navbar.module.css"
-import { Breadcrumb } from 'antd';
 
 const Navbar = () => {
     return (

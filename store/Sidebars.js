@@ -1,10 +1,9 @@
 import { makeAutoObservable } from "mobx";
 import { books, clientBooks } from "../utils";
 
-class BooksStore {
+class Sidebars {
   constructor() {
     this.books = [];
-    this.clientBooks=[];
     this.searchParam = "";
     makeAutoObservable(this);
   }
@@ -19,12 +18,16 @@ class BooksStore {
     return Promise.resolve(books);
   };
 
- get fetchAndSetBooksOnClient() {
-  return clientBooks
+  fetchAndSetBooksOnClient = async () => {
+    return this.books.filter((book) =>
+      book.title.toLowerCase().includes(this.searchParam.toLowerCase())
+    );
   };
 
   get filteredBooks() {
-    return books
+    return this.books.filter((book) =>
+      book.title.toLowerCase().includes(this.searchParam.toLowerCase())
+    );
   }
 
   get totalBooks() {
@@ -37,4 +40,4 @@ class BooksStore {
   };
 }
 
-export default BooksStore;
+export default Sidebars;

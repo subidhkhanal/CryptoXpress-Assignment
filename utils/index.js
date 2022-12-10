@@ -61,17 +61,29 @@ export const books = [
 
 ];
 
-export const sidebars = [
+export const clientBooks = [
   {
     id: 0,
-    title: "Harry Potter and Philosopher's Stone",
-    links:
-    "Havelock in short, is paradise. It’s an island tucked away from the crowds in the warm waters of the Andaman Ocean. The island is covered mostly in dense jungle and fringed with white sandy beaches shaded by tall green trees. Diving in the crystal clear waters with shades of turquoise blue an experience that all must explore. Tourists simply love its picture perfect beaches, laid back vibe and amazing underwater world. As far as islands in the Andamans go, Havelock is definitely the most tourism friendly and consequently the most visited. There are all sorts of accommodation options from bamboo cottages to luxury villas, great multinational cuisine restaurants, souvenir shops, ATMs and now even (slow but accessible) Internet cafés. You’ll find almost everything you need here, but at a slower pace. And even though it is one of the most visited islands in the Andamans it sees only a fraction of the visitors that crowd other paradise destinations around the globe."
+    Header: "Popular Tourist Islands",
+    titleOne: "Port Blair – Capital City",
+    titleTwo: "Havelock Island",
+    titleThree: "Neil Island",
+    titleFour: "Baratang"
   },
   {
-    id: 0,
-    title: "Harry Potter and Philosopher's Stone",
-    links:
-    "Havelock in short, is paradise. It’s an island tucked away from the crowds in the warm waters of the Andaman Ocean. The island is covered mostly in dense jungle and fringed with white sandy beaches shaded by tall green trees. Diving in the crystal clear waters with shades of turquoise blue an experience that all must explore. Tourists simply love its picture perfect beaches, laid back vibe and amazing underwater world. As far as islands in the Andamans go, Havelock is definitely the most tourism friendly and consequently the most visited. There are all sorts of accommodation options from bamboo cottages to luxury villas, great multinational cuisine restaurants, souvenir shops, ATMs and now even (slow but accessible) Internet cafés. You’ll find almost everything you need here, but at a slower pace. And even though it is one of the most visited islands in the Andamans it sees only a fraction of the visitors that crowd other paradise destinations around the globe."
+    id: 1,
+    Header: "About Andaman Islands",
+    titleOne:"Entry Formalities",
+    titleTwo: "Geography",
+    titleThree:"Flora & Fauna",
+    titleFour:"Tourists Do’s & Dont’s",
+  },
+  {
+    id: 1,
+    Header: "Popular Places to Visit",
+    titleOne:"Cellular Jail",
+    titleTwo: "Ross Island",
+    titleThree:"Radhanagar Beach",
+    titleFour:"Jolly Buoy",
   }
 ];

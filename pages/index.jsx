@@ -1,4 +1,4 @@
-import { books } from "../utils";
+import { books,clientBooks } from "../utils";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner"
 import Footer from '../components/Footer'
@@ -22,7 +22,8 @@ export const getServerSideProps = async () => {
     props: {
       initialState: {
         booksStore: {
-          books
+          books,
+          clientBooks
         }
       }
     }

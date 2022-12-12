@@ -1,10 +1,10 @@
 import { makeAutoObservable } from "mobx";
-import { books, clientBooks } from "../utils";
+import { text, sidebar } from "../utils";
 
 class BooksStore {
   constructor() {
-    this.books = [];
-    this.clientBooks=[];
+    this.text = [];
+    this.sidebar=[];
     this.searchParam = "";
     makeAutoObservable(this);
   }
@@ -13,27 +13,27 @@ class BooksStore {
     this.searchParam = param;
   };
 
-  setBooks = (books) => (this.books = books);
+  setBooks = (text) => (this.text = text);
 
   fetchBooks = async () => {
-    return Promise.resolve(books);
+    return Promise.resolve(text);
   };
 
  get fetchAndSetBooksOnClient() {
-  return clientBooks
+  return sidebar
   };
 
   get filteredBooks() {
-    return books
+    return text
   }
 
   get totalBooks() {
-    return this.books.length;
+    return this.text.length;
   }
 
   hydrate = (data) => {
     if (!data) return;
-    this.setBooks(data.books);
+    this.setBooks(data.text);
   };
 }
 

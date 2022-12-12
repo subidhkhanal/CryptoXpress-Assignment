@@ -1,4 +1,3 @@
-import { books,clientBooks } from "../utils";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner"
 import Footer from '../components/Footer'
@@ -15,19 +14,6 @@ const IndexPage = () => {
       <Footer />
     </div>
   );
-};
-
-export const getServerSideProps = async () => {
-  return {
-    props: {
-      initialState: {
-        booksStore: {
-          books,
-          clientBooks
-        }
-      }
-    }
-  };
 };
 
 export default IndexPage;

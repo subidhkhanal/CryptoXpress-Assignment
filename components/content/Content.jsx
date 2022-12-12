@@ -1,14 +1,14 @@
 import { observer } from "mobx-react-lite"
 import { MobxContext } from "../../pages/_app";
 import { useContext } from "react";
-import BookCard from "../BookCard";
+import ContentCard from "../ContentCard";
 
 const Content = () =>{
     const { filteredBooks} = useContext(MobxContext);
     return(
         <div>
               {filteredBooks.map((book, index) => (
-          <BookCard key={index} book={book} />
+          <ContentCard key={index} book={book} />
         ))}
         </div>
     )

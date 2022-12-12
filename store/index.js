@@ -1,5 +1,5 @@
 import { enableStaticRendering } from "mobx-react-lite";
-import BooksStore from "./Books";
+import BooksStore from "./Information";
 
 enableStaticRendering(typeof window === "undefined");
 

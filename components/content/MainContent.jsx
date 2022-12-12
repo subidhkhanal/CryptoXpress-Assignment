@@ -5,13 +5,11 @@ import Content from './Content'
 import { observer } from "mobx-react-lite"
 import { MobxContext } from "../../pages/_app";
 import { useContext } from "react";
-import BookCard from "../BookCard";
 import {Card} from 'antd'
 
 
 const MainContent = () => {
-  const { filteredSidebars} = useContext(MobxContext);
-  const { filteredBooks,fetchAndSetBooksOnClient} = useContext(MobxContext);
+  const { fetchAndSetBooksOnClient} = useContext(MobxContext);
 
 
     return (

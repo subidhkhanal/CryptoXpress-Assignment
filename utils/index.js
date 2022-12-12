@@ -1,8 +1,6 @@
 import DividerBetweenContent from'../images/divider.jpg'
-export const getSide = () =>
-  typeof window === "undefined" ? "server" : "client";
 
-export const books = [
+export const text = [
   {
     id: 0,
     title: "About Havelock Island",
@@ -61,7 +59,7 @@ export const books = [
 
 ];
 
-export const clientBooks = [
+export const sidebar = [
   {
     id: 0,
     Header: "Popular Tourist Islands",

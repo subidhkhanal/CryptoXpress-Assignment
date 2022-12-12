@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const BookCard = ({ book }) => {
-    const { id, title,content,slug } = book;
+    const { id, title,slug } = book;
     return (
       <div>
         <ul>

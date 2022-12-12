@@ -1,6 +1,6 @@
 
 const Sidebar = ({book}) => {
-    const { id, Header,titleOne,titleTwo,titleThree,titleFour,titleFive} = book;
+    const { id, Header,titleOne,titleTwo,titleThree,titleFour} = book;
 
     return(
         <div style={{color:"#01b46c"}}>

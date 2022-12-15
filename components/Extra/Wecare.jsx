@@ -4,8 +4,10 @@ import Newsletter from './Newsletter'
 const Wecare = () => {
     return (
 	<div className={styles.container}>
+    <div className={styles.outsideContainer}>
+      <div className={styles.insideContainer}>
      <div className={styles.title}>
-        <div className={styles.titleTwo}>We care.</div>
+        <div className={styles.titleTwo}>We Care.</div>
       </div>
       <div className={styles.information}>
         <div className={styles.informationDetails}>
@@ -28,6 +30,8 @@ const Wecare = () => {
           <h4>Fast Confirmations</h4>
           <span>Be confident that your trip is set. Get ready for the experience.</span>
         </div>
+      </div>
+      </div>
       </div>
         </div>
     )

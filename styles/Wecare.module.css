@@ -7,6 +7,24 @@
     padding-top: 50px;
 }
 
+.outsideContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center;
+}
+
+.insideContainer{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
 .title{
     max-width: 100%;
     position: relative;
@@ -17,23 +35,25 @@
 }
 
 .titleTwo{
-    text-transform: capitalize;
     text-align: center;
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .information{
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding: 12px;
 }
 
 .informationDetails{
-    max-width: 25%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 50%;
+    flex: 0 0 50%;
 }
 
 @media (min-width: 576px){
@@ -59,13 +79,24 @@
         max-width: 960px;
     }
 }
+
 @media (min-width: 1200px){
 .container {
     max-width: 1140px;
 }
 }
 
+@media (max-width: 768px){
+    .titleTwo{
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
 
-
-
+@media (min-width: 768px{
+    .informationDetails{
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+})
 

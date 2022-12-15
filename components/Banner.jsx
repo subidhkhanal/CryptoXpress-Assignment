@@ -8,7 +8,7 @@ const Banner = () => {
                 <Breadcrumb separator=">">
                     <Breadcrumb.Item>Home</Breadcrumb.Item>
                     <Breadcrumb.Item href="">Andaman Travel Guide</Breadcrumb.Item>
-                    <Breadcrumb.Item className={styles.item}>testing</Breadcrumb.Item>
+                    <Breadcrumb.Item className={styles.item}>Havelock</Breadcrumb.Item>
                 </Breadcrumb>
             </div>
             <div className={styles.containerTwo}>

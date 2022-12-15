@@ -20,7 +20,7 @@ const MainContent = () => {
           <Content />
         </div>
         <div className={styles.sidebar}>
-        <Card>
+        <Card style={{marginBottom:"50px"}}>
               {fetchAndSetBooksOnClient.map((book, index) => (
           <Sidebar key={index} book={book} />
         ))}

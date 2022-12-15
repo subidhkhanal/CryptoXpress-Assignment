@@ -1,0 +1,11 @@
+@media (max-width: 768px){
+    .heading{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 991px){
+    .heading{
+        text-align: center;
+    }
+}

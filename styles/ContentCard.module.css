@@ -1,0 +1,11 @@
+.image{
+  max-width: 100%;  
+}
+
+@media (max-width: 768px){
+  .heading{
+    font-size: 21px;
+    line-height: 30px;
+    text-align: center;
+  }
+}

@@ -8,14 +8,9 @@ const Footer = () => {
     <div className={styles.container}>
       <div className={styles.insideContainer}>
         <Row justify="space-evenly">
-            <Col
-            xs={{
-              span: 5,
-              offset: 1,
-            }}
+            <Col span={24}
             lg={{
-              span: 6,
-              offset: 4,
+              span: 6
             }}
             > 
                 <div>
@@ -28,13 +23,9 @@ const Footer = () => {
                   <p>You can build your holiday from the ground-up, exactly how you like. We’ve personally verified each experience, so you know that they’re tried, tested and true!</p><p><a href="https://www.go2andaman.com/about-us/">Find Out How </a></p>
                 </div>
             </Col>
-            <Col
-            xs={{
-              span: 5,
-              offset: 1,
-            }}
+            <Col span={24}
             lg={{
-              span: 5,
+              span: 6,
               offset: 2,
             }}>
               <div>
@@ -50,7 +41,10 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col>
+            <Col span={24}
+            lg={{
+              span: 6
+            }}>
               <div>
               <Paragraph strong>
                   <Title level={5}>FOR TRAVELLERS</Title>
@@ -64,46 +58,38 @@ const Footer = () => {
                 </ul>
               </div>
             </Col>
-            <Col className={styles.image}>
+            <Col
+            lg={{
+              span:1
+            }}
+            xl={{
+              span: 3
+            }} 
+            className={styles.image}>
             <img src="https://ocean.go2andaman.com/wp-content/uploads/2020/12/startupindia-01.svg" width="200"/>
             </Col>
         </Row>
           <Divider />
-        <Row justify="start">
-        <Col
-            xs={{
-              span: 5,
-              offset: 1,
+        <Row>
+        <Col span={0}
+            md={{
+              span: 14,
             }}
             lg={{
-              span: 6,
-              offset: 4,
+              span: 12
             }}
             > 
               WEBPORT MEDIA PVT LTD | CIN No: U63040AN2015PTC000278
             </Col>
-            <Col
-              xs={{
-                span: 5,
-                offset: 1,
-              }}
-              lg={{
-                span: 5,
-                offset: 2,
-              }}
-            ></Col>
-            <Col></Col>
-            <Col
-             xs={{
-              span: 5,
-              offset: 1,
+            <Col span={24} offset={7}
+            md={{
+              span:8,
+              offset: 1
             }}
             lg={{
-              span: 1,
-              offset: 2,
+              span: 6,
+              offset: 6
             }}
-            ></Col>
-            <Col 
           >
              <a className={styles.icons}>
               <img src="https://ocean.go2andaman.com/wp-content/uploads/2020/07/instagram.png" width="20"/>

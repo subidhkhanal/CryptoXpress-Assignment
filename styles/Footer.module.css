@@ -5,11 +5,11 @@
 }
 
 .insideContainer{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0px auto;
     max-width: 1600px;
+    width: 100%;
 }
 .lists{
     list-style: none;
@@ -24,9 +24,22 @@
 .image{
     display: flex;
     align-items: flex-end;
-    padding-left: 40px;
+    /* padding-left: 40px; */
 }
 .icons{
     padding-left: 12px;
     padding-right: 12px;
+}
+
+@media (max-width: 768px){
+.insideContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+@media (max-width: 992px){
+    .lists{
+        display: none;
+    }
 }

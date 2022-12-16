@@ -9,7 +9,7 @@
 
 .outsideContainer{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin-right: -15px;
     margin-left: -15px;
     justify-content: center;
@@ -93,10 +93,10 @@
     }
 }
 
-@media (min-width: 768px{
+@media (min-width: 768px){
     .informationDetails{
         max-width: 25%;
         flex: 0 0 25%;
     }
-})
+}
 

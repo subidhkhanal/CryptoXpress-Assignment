@@ -54,6 +54,8 @@
     padding-left: 15px;
     max-width: 50%;
     flex: 0 0 50%;
+    padding-bottom: 25px;
+
 }
 
 @media (min-width: 576px){

@@ -31,14 +31,21 @@
 
 .information{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: column; */
     text-align: center;
     padding: 12px;
-    justify-content: space-around
+    justify-content: center 
 }
 
 .informationDetails{
-    max-width: 25%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding-bottom: 25px;
 }
 
 @media (min-width: 576px){
@@ -64,10 +71,18 @@
         max-width: 960px;
     }
 }
+
 @media (min-width: 1200px){
 .container {
     max-width: 1140px;
 }
+}
+
+@media (min-width: 768px){
+    .informationDetails{
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
 }
 
 
